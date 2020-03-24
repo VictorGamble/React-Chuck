@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Chuck 2020</h1>
-      <Quote />
+      <Quote quote="chuck says" />
     </div>
   );
 }
