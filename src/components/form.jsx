@@ -5,7 +5,8 @@ class Form extends Component{
         return (
             <form>
                 <input placeholder="please select a Category"></input>
-                <br></br>
+                <br />
+                <br />
                 <button type="submit">Get Quote</button>
             </form>
         )

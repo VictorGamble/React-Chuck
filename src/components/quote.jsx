@@ -4,11 +4,11 @@ class Quote extends Component {
     state = {
       quote: "chuck does cool stuff"
   }
-  
     render() {
-    return (
+        const { quote } = this.state;
+        return (
       <div>
-            <p>{this.state.quote}</p>
+                <p>{quote}</p>
       </div>
     );
   }
