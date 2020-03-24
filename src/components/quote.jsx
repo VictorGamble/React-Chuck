@@ -10,7 +10,7 @@ class Quote extends Component {
             this.setState({
                 quote: "chuck norris is awesome"
             })
-        }, 3000)
+        }, 2000)
     }
 
     render() {
