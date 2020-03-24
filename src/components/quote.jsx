@@ -5,7 +5,7 @@ class Quote extends Component {
       quote: "Fetching Data..."
     }
     
-    componentDidCatch(state) {
+    componentDidMount(state) {
         setTimeout((state) => {
             this.setState({
                 quote: "chuck norris is awesome"
