@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 
 class Quote extends Component {
-  render() {
+    state = {
+      quote: "chuck does cool stuff"
+  }
+  
+    render() {
     return (
       <div>
-            <p>{this.props.quote}</p>
+            <p>{this.state.quote}</p>
       </div>
     );
   }
