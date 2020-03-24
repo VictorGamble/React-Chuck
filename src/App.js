@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Chuck 2020</h1>
-      <Quote quote="chuck says" />
+      <h1>Chuck Says</h1>
+      <Quote quote="Chuck Norris never dies" />
       <button type="button">Refresh Quote</button>
       <br/>
       <Form/>
