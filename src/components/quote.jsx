@@ -2,13 +2,22 @@ import React, { Component } from "react";
 
 class Quote extends Component {
     state = {
-      quote: "chuck does cool stuff"
-  }
+      quote: "Fetching Data..."
+    }
+    
+    componentDidCatch(state) {
+        setTimeout((state) => {
+            this.setState({
+                quote: "chuck norris is awesome"
+            })
+        }, 3000)
+    }
+
     render() {
-        const { quote } = this.state;
+        const { quote } = this.state
         return (
       <div>
-                <p>{quote}</p>
+        <p>{quote}</p>
       </div>
     );
   }
