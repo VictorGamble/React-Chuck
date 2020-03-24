@@ -9,6 +9,7 @@ function App() {
       <h1>Chuck Says</h1>
       <Quote quote="Chuck Norris never dies" />
       <button type="button">Refresh Quote</button>
+      <br />
       <br/>
       <Form/>
     </div>
