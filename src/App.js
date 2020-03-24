@@ -1,5 +1,6 @@
 import React from 'react';
-import Quote from './components/quote'
+import Quote from './components/quote';
+import Form from './components/form';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <h1>Chuck 2020</h1>
       <Quote quote="chuck says" />
+      <Form/>
     </div>
   );
 }
