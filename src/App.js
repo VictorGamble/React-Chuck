@@ -8,6 +8,8 @@ function App() {
     <div className="App">
       <h1>Chuck 2020</h1>
       <Quote quote="chuck says" />
+      <button type="button">Refresh Quote</button>
+      <br/>
       <Form/>
     </div>
   );
